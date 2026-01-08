@@ -1,0 +1,7 @@
+primeiro = int(input('Primeiro valor: '))
+segundo = int(input('Segundo valor: '))
+terceiro = int(input('Terceiro valor: '))
+salario = min(terceiro,primeiro,segundo)
+mz = max(terceiro, segundo, primeiro)
+print('O menor valor digitado foi \33[44m{}\033[m'.format(salario))
+print('O maior valor digitado foi \33[31m{}\033[m'.format(mz))

@@ -1,0 +1,7 @@
+n1 = int(input('Digite um número: '))
+d = n1 * 2
+t = n1 * 3
+r = n1 ** (1/2)
+print('o dobro de {} vale {}'.format(n1, d, ))
+print('o triplo de {} vale {}'. format(n1, t))
+print('a raiz quadrada de {} vale {:.3f}'.format(n1, r))
